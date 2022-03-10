@@ -1,0 +1,742 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("https://www.freepik.es/vector-gratis/fondo-azul-abstracto_1435153.htm#query=fondos%20para%20paginas%20web&position=18&from_view=keyword");
+  background-size: cover;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255,255,255,0.6); 
+  
+ }
+#MenuNavegacion ul {
+  font-size: 1.5rem;
+  font-family: optima;
+  font-weight: normal ;
+  
+}
+.quienesSomosPadre {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12rem;
+}
+.quienesSomosHijo1{
+  background-color: rgba(255,255,255,0.6); 
+  border-radius: 15rem;
+  text-align: center;
+  width: 30rem;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  font-family: optima;
+ 
+}
+.quienesSomosHijo1 h1 {
+  font-size: 4rem;
+}
+
+.misionPadre {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  padding-top: 13rem;
+}
+.misionHijo1{
+  background-color: rgba(255,255,255,0.6); 
+  border-radius: 15rem;
+  text-align: center;
+  width: 30rem;
+  font-family: optima;
+  margin-top: 4rem;
+  margin-left: 4rem; 
+}
+.misionHijo1 h1 {
+  font-size: 4rem;
+}
+.misionHijo2 {
+  margin-left: 7rem;
+}
+.visionPadre {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 18rem;
+  
+}
+.visionHijo1 {
+  background-color: rgba(255,255,255,0.6); 
+  border-radius: 15rem;
+  text-align: center;
+  font-family: optima;
+  width: 30rem;
+  padding-top: 10rem;
+}
+
+.visionHijo1 h1 {
+  font-size: 4rem;
+} 
+.visionHijo2 img{
+  width: 40rem;
+}
+@media (max-width: 992px) {
+  .quienesSomosPadre {
+    display: flex;
+    flex-direction: column;
+  }
+  .quienesSomosHijo1 {
+    margin-left: 0rem;
+  }
+  .misionPadre {
+    display: flex;
+    flex-direction: column;
+  }
+  .misionHijo1 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+  }
+  .misionHijo2{
+    margin-left: 0rem;
+  }
+  .visionPadre {
+    display: flex;
+    flex-direction: column;
+  }
+  .visionHijo1 {
+    margin-left: 0rem;
+    padding-top: 4rem;
+  }
+}
+@media (max-width: 530px){
+  .quienesSomosPadre {
+    display: flex;
+    flex-direction: column;
+  }
+  .quienesSomosHijo1 {
+    margin-left: 0rem;
+    width: 15rem;
+  }
+  .quienesSomosHijo2 img {
+    width: 15rem;
+  }
+  .misionPadre {
+    display: flex;
+    flex-direction: column;
+  }
+  .misionHijo1 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+  .misionHijo2{
+    margin-left: 0rem;
+  }
+  .misionHijo2 img {
+    width: 15rem;
+  }
+  .visionPadre {
+    display: flex;
+    flex-direction: column;
+  }
+  .visionHijo1 {
+    margin-left: 0rem;
+    padding-top: 4rem;
+    width: 15rem;
+  }
+  .visionHijo2 img {
+    width: 17rem;
+  }
+}
+/********************************SERVICIO****************************************/
+.tablasLinea1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  
+  
+}
+
+.tabla1Linea1 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+.tabla1Linea1Celda1 {height: 20rem;}
+.tabla1Linea1Celda1 img {width: 100%; height: 20rem;}
+.tabla1Linea1Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla1Linea1Celda3 {padding-left: 1rem;}
+
+.tabla2Linea1 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+  margin-right: 6rem;
+}
+.tabla2Linea1Celda1 {height: 20rem;}
+.tabla2Linea1Celda1 img {width: 100%; height: 20rem;}
+.tabla2Linea1Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla2Linea1Celda3 {padding-left: 1rem;}
+
+.tabla3Linea1 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+}
+.tabla3Linea1Celda1 {height: 20rem;}
+.tabla3Linea1Celda1 img {width: 100%; height: 20rem;}
+.tabla3Linea1Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla3Linea1Celda3 {padding-left: 1rem;}
+
+
+
+/*TABLA 2*/
+.tablasLinea2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  
+}
+
+.tabla1Linea2 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+.tabla1Linea2Celda1 {height: 20rem;}
+.tabla1Linea2Celda1 img {width: 100%; height: 20rem;}
+.tabla1Linea2Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla1Linea2Celda3 {padding-left: 1rem;}
+
+.tabla2Linea2 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+  margin-right: 6rem;
+}
+.tabla2Linea2Celda1 {height: 20rem;}
+.tabla2Linea2Celda1 img {width: 100%; height: 20rem;}
+.tabla2Linea2Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla2Linea2Celda3 {padding-left: 1rem;}
+
+.tabla3Linea2 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+}
+.tabla3Linea2Celda1 {height: 20rem;}
+.tabla3Linea2Celda1 img {width: 100%; height: 20rem;}
+.tabla3Linea2Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla3Linea2Celda3 {padding-left: 1rem;}
+
+/*TABLA 3*/
+.tablasLinea3 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  
+}
+
+.tabla1Linea3 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+.tabla1Linea3Celda1 {height: 20rem;}
+.tabla1Linea3Celda1 img {width: 100%; height: 20rem;}
+.tabla1Linea3Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla1Linea3Celda3 {padding-left: 1rem;}
+
+.tabla2Linea3 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+  margin-right: 6rem;
+}
+.tabla2Linea3Celda1 {height: 20rem;}
+.tabla2Linea3Celda1 img {width: 100%; height: 20rem;}
+.tabla2Linea3Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla2Linea3Celda3 {padding-left: 1rem;}
+
+.tabla3Linea3 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 18rem;
+}
+.tabla3Linea3Celda1 {height: 20rem;}
+.tabla3Linea3Celda1 img {width: 100%; height: 20rem;}
+.tabla3Linea3Celda2 {height: 15rem; padding-left: 1rem;}
+.tabla3Linea3Celda3 {padding-left: 1rem;}
+
+@media (max-width: 1199px) {
+  .tablasLinea1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabla1Linea1 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+  }
+  .tabla2Linea1{
+    margin-bottom: 4rem;
+  }
+  .tablasLinea2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabla1Linea2 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+  }
+  .tabla2Linea2{
+    margin-bottom: 4rem;
+  }
+
+  .tablasLinea3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabla1Linea3 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+  }
+  .tabla2Linea3{
+    margin-bottom: 4rem;
+  }
+}
+
+
+@media (max-width: 315px){
+  .tablasLinea1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabla1Linea1 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+  .tabla2Linea1{
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+  .tabla3Linea1 {
+    width: 15rem;
+  }
+  .tablasLinea2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabla1Linea2 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+  .tabla2Linea2{
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+  .tabla3Linea2 {
+    width: 15rem;
+  }
+
+  .tablasLinea3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabla1Linea3 {
+    margin-left: 0rem;
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+  .tabla2Linea3{
+    margin-bottom: 4rem;
+    width: 15rem;
+  }
+  .tabla3Linea3{
+    width: 15rem;
+  }
+}
+
+/****************************************CONTACTANOS***********************************/
+
+.row{
+  padding-bottom: 3rem;
+}
+.labels {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.radios {
+  padding-top: 4rem;
+}
+
+.notas {
+  padding-bottom: 4rem;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+.botonEnviar  {
+  margin-right: 3rem;
+}
+/***********************************SUCURSAL*****************************************/
+.contenedorSucursales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contenidoTexto ul {
+  list-style: none;
+}
+.contenidoTexto {
+  text-align: center;
+  background-color: rgba(255,255,255,0.6); 
+  border-radius: 4rem;
+  width: 30rem;
+  height: 65rem;
+  margin-top: 20rem;
+}
+.contenidoMaps {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+
+}
+@media (max-width: 1199px){
+  .contenedorSucursales {
+    display: flex;
+    flex-direction: column;
+  }
+  .SucursalHijo2 iframe {
+    width: 30rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 510px){
+  .contenedorSucursales {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenidoTexto{
+    width: 20rem; 
+  }
+  .SucursalHijo2 iframe {
+    width: 20rem;
+    height: 10rem;
+  }
+  .contenidoTexto ul {
+    font-size: small;
+  }
+}
+@media (max-width: 349px){
+  .contenedorSucursales {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenidoTexto{
+    width: 16rem; 
+  }
+  .SucursalHijo2 iframe {
+    width: 15rem;
+    height: 7rem;
+  }
+  .contenidoTexto li {
+    text-align: justify;
+    width: 10rem; 
+  }
+  .li{
+    font-size: x-small;
+  }
+}
+
+
+
+/*************************************PROMOCIONES*************************************/
+.contenidoPromociones{
+  display: grid;
+  grid-template-areas: "promocion1" "promocion2" "promocion3" "esloganBlanco";
+  grid-template-rows: 24rem 26rem 26rem 14rem;
+  grid-row-gap: 5rem;
+}
+
+div.promocion1 {
+  grid-area: promocion1;
+}
+div.promocion2 {
+  grid-area: promocion2;
+}
+div.promocion3 {
+  grid-area: promocion3;
+}
+div.esloganBlanco {
+  grid-area: esloganBlanco;
+}
+
+.promocion1 {
+  background-color: #33E0FF;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  color: white;
+  font-size: 12rem;
+  font-family: Optima;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+.promocion1Hijo1 {
+  padding-top: 2rem;
+}
+.promocion1Hijo2 {
+  padding-top: 8rem;
+  text-align: center;
+}
+.promocion2 {
+  border-radius: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12rem;
+  font-family: Optima;
+  color: #33E0FF;
+  padding-bottom: 5rem;
+}
+
+.promocion2Hijo1 img {
+  width: 26rem;
+  opacity: 0.7;
+  border-radius: 1rem;
+  border-top-left-radius: 1rem;
+  padding-top: 4rem;
+}
+
+.promocion2Hijo2 span {
+  padding-left: 4rem;
+}
+.promocion2 h3 {
+  text-align: center;
+}
+.promocion3 {
+  border-radius: 1rem;
+  background-color: #33E0FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12rem;
+  font-family: optima;
+  color: white;
+}
+.promocion3 h3 {
+  text-align: center;
+}
+
+.promocion3Hijo2 img {
+  width: 26rem;
+  opacity: 0.7;
+  border-radius: 1rem;
+  border-top-left-radius: 1rem;
+  padding-top: 4rem;
+}
+@media (max-width: 991px) {
+  .contenidoPromociones {
+    grid-template-rows: 35rem 40rem 50rem 14rem;
+    grid-template-columns: 40rem;
+  }
+  .promocion1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .promocion1Hijo1{
+    padding-right: 0rem;
+    text-align: center;
+    margin-right: 0rem;
+
+  }
+  .promocion1Hijo2 {
+    padding-top: 0rem;
+    margin-right: 0rem;
+  }
+  .promocion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .promocion2Hijo1 img {
+    width: 20rem; 
+  }
+  .promocion2Hijo2 {
+    text-align: center;
+  }
+  .promocion2Hijo2 span {
+    padding-left: 0rem;
+  }
+  .promocion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .promocion3Hijo1 img {
+    width: 20rem; 
+  }
+  .promocion3Hijo2 {
+    text-align: center;
+  }
+  .promocion3Hijo2 span {
+    padding-left: 0rem;
+  }
+}
+@media (max-width: 767px) {
+  .contenidoPromociones {
+    grid-template-rows: 35rem 40rem 50rem 14rem;
+    grid-template-columns: 30rem;
+  }
+  .promocion1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .promocion1Hijo1{
+    padding-right: 0rem;
+    text-align: center;
+    margin-right: 0rem;
+
+  }
+  .promocion1Hijo2 {
+    padding-top: 0rem;
+    margin-right: 0rem;
+  }
+  .promocion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .promocion2Hijo1 img {
+    width: 20rem; 
+  }
+  .promocion2Hijo2 {
+    text-align: center;
+  }
+  .promocion2Hijo2 span {
+    padding-left: 0rem;
+  }
+  .promocion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .promocion3Hijo1 img {
+    width: 20rem; 
+  }
+  .promocion3Hijo2 {
+    text-align: center;
+  }
+  .promocion3Hijo2 span {
+    padding-left: 0rem;
+  }
+}
+@media (max-width: 510px) {
+  .contenidoPromociones {
+    grid-template-rows: 35rem 40rem 50rem 14rem;
+    grid-template-columns: 15rem;
+  }
+  .promocion1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 6rem;
+  }
+  .promocion1Hijo1{
+    padding-right: 0rem;
+    text-align: center;
+    margin-right: 0rem;
+
+  }
+  .promocion1Hijo2 {
+    padding-top: 0rem;
+    margin-right: 0rem;
+  }
+  .promocion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 6rem;
+  }
+  .promocion2Hijo1 img {
+    width: 10rem; 
+  }
+  .promocion2Hijo2 {
+    text-align: center;
+  }
+  .promocion2Hijo2 span {
+    padding-left: 0rem;
+  }
+  .promocion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 6rem;
+  }
+  .promocion3Hijo2 img {
+    width: 10rem; 
+  }
+  .promocion3Hijo2 {
+    text-align: center;
+  }
+  .promocion3Hijo2 span {
+    padding-left: 0rem;
+  }
+}
+/**************************************FOOTER****************************************/
+.footer {
+  background-color: #5DADE2;
+  color: white;
+  padding-top: 3rem;
+
+}
+
+
+.footer__flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.footer__flex ul {
+  font-family: optima;
+}
+.footer__flex h6 {
+  font-family: optima;
+}
+.sucursal1 {
+  flex-direction: column;
+}
+.footer__menu {
+  list-style: none;
+  
+}
+
+.footer__menu a {
+  text-decoration: none;
+}
+
+.footer__credito {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+
+}
+.footer__flex ul img{
+  width: 2rem;
+}
+@media (max-width: 445px) {
+  .footer__flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.eslogan {
+  text-align: center;
+  opacity: 0.2;
+  padding-bottom: 4rem;
+}
